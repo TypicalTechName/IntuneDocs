@@ -104,6 +104,8 @@ Applies only to co-managed devices running Windows 10 and later. Intune-only dev
 
 ### Password
 
+Intune will only evaluate compliance of the password for local accounts.
+
 - **Require a password to unlock mobile devices**: **Require** users to enter a password before they can access their device.
 - **Simple passwords**: Set to **Block** so users can't create simple passwords, such as **1234** or **1111**. Set to **Not configured** to let users create passwords like **1234** or **1111**.
 - **Password type**: Choose if a password should have only **Numeric** characters, or if there should be a mix of numbers and other characters (**Alphanumeric**).
