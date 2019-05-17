@@ -405,7 +405,7 @@ Select **OK** to save your changes.
 
 ## Password
 
-These settings use the [DeviceLock policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock), which also lists the supported Windows editions.
+These settings use the [DeviceLock policy CSP](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock), which also lists the supported Windows editions. This policy only applies for local account.
 
 - **Password**: **Require** the end user to enter a password to access the device. **Not configured** (default) allows access to the device without a password.
   - **Required password type**: Choose the type of password. Your options:
